@@ -1,0 +1,17 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: win2k12r2
+    driver_config:
+      box: win2k12r2
+
+suites:
+  - name: default
+    run_list:
+      - recipe[win2012r_base::default]
+    attributes:

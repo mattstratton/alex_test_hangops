@@ -1,0 +1,10 @@
+name 'win2012r_base'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures win2012r_base'
+long_description 'Installs/Configures win2012r_base'
+version '0.1.0'
+
+depends 'chocolatey', '~> 0.5.1'
+depends 'datadog', '~> 2.2.0'
